@@ -47,7 +47,11 @@ public class DetectCycleLL {
         head1.next.next = new ListNode(3);
         head1.next.next.next = new ListNode(4);
 
+<<<<<<< HEAD
         DetectCycleLL sol = new DetectCycleLL();
+=======
+        DetectCycleL sol = new DetectCycleL();
+>>>>>>> 9795998 (Detecting the starting point of the loop)
         System.out.println("List 1 has cycle? " + sol.hasCycle(head1));
         // Output: false
 
