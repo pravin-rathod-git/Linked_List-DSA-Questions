@@ -152,7 +152,7 @@ class ConvertToLinkedList {
     }
 }
 
-public class DBLPrintBackward {
+public class DBLInsertAtEnd {
     public static void main(String[] args) {
 
         ConvertToLinkedList dll = new ConvertToLinkedList();
