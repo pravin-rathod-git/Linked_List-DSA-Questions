@@ -47,7 +47,7 @@ public class DetectCycleLL {
         head1.next.next = new ListNode(3);
         head1.next.next.next = new ListNode(4);
 
-        Solution sol = new Solution();
+        DetectCycleLL sol = new DetectCycleLL();
         System.out.println("List 1 has cycle? " + sol.hasCycle(head1));
         // Output: false
 
